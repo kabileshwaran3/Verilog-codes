@@ -1,1 +1,9 @@
+module not_gate(out,in );
+input in;
+output out;
+ supply1 vdd;
+ supply0 gnd;
+ pmos x(out,vdd,in);
+ nmos y(out,gnd,in);
+endmodule
 
