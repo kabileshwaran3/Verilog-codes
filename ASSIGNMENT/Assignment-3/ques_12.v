@@ -1,4 +1,5 @@
 `timescale 1ns / 1ps
+//Create a comparator module that uses ==, <, and > to output ceq, clt, and cgt.
 module comparator(input [4:0]a,
                   input [4:0]b,
                   output ceq, 
