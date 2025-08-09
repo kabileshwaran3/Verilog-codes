@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+//Write a 2-to-1 MUX using conditional operator ?:
 module mux2x1(input a,b,s,
               output y);
               
