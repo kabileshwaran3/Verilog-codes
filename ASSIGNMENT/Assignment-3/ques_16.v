@@ -1,5 +1,5 @@
 `timescale 1ns / 1ps
-
+//.Design a 4-to-1 MUX using nested conditional operators ?: as in the slide example.
 module mux4x1(input[3:0]i,
               input [1:0]sel,
               output y);
