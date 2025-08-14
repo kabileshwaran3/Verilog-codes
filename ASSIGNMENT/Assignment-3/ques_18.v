@@ -1,3 +1,4 @@
+//Implement a 4-to-2 encoder using conditional operator ?:
 `timescale 1ns / 1ps
 
 module encoder_4x2ass(input[3:0]a,[1:0]y);
