@@ -1,3 +1,5 @@
+//Design a parametric N-bit 4-to-1 MUX using conditional operator (N = 4 default).
+
 module nbit_4x1 #(
     parameter N = 4)
     (input  [N-1:0] d0, d1, d2, d3,
