@@ -1,3 +1,4 @@
+//Create a 4-to-2 priority encoder module using assign and nested conditions.
 module priority_encoder4x2(
     input  [3:0] in,    
     output [1:0] out);
