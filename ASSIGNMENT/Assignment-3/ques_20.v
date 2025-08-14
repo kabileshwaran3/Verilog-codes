@@ -1,3 +1,4 @@
+//Write a 1-to-4 demultiplexer using assign statements and enable logic.
 module demux_1to4 ( input  din,         
     input  [1:0] sel,    
     input  en,          
