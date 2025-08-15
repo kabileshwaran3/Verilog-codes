@@ -25,30 +25,3 @@ module priority_en_8x3(input [7:0]i,
     
 endmodule
 
-//`timescale 1ns / 1ps
-//module priority_en_8x3(
-//    input [7:0] i,
-//    input en,
-//    output reg [2:0] y
-//);
-
-//    always @(*) begin
-//        if (en) begin
-//            casez (i)
-//                8'b1???????: y = 3'b111; // bit 7
-//                8'b01??????: y = 3'b110; // bit 6
-//                8'b001?????: y = 3'b101; // bit 5
-//                8'b0001????: y = 3'b100; // bit 4
-//                8'b00001???: y = 3'b011; // bit 3
-//                8'b000001??: y = 3'b010; // bit 2
-//                8'b0000001?: y = 3'b001; // bit 1
-//                8'b00000001: y = 3'b000; // bit 0
-//                default:     y = 3'b000;
-//            endcase
-//        end
-//        else begin
-//            y = 3'b000;
-//        end
-//    end
-
-//endmodule
