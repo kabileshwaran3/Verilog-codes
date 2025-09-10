@@ -1,0 +1,10 @@
+//Write a module that toggles a 1-bit signal using initial and always blocks.
+module toggle_signal;
+    reg signal;
+    initial begin
+        signal = 0;
+    end
+    always begin
+        #10 signal = ~signal;
+    end
+endmodule
