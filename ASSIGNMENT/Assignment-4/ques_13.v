@@ -1,3 +1,4 @@
+//Create a simple ALU module using only blocking assignments.
 module simple_alu (
   input  [3:0]  a,      
   input  [3:0]  b,      
