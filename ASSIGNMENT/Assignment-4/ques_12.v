@@ -1,3 +1,4 @@
+//Write a testbench for a blocking-assigned flip-flop—verify its output.
 module ff_blocking(
     input clk,
     input rst,
