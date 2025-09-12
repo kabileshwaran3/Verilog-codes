@@ -8,3 +8,8 @@ module simple_task;
     say_hello;
   end
 endmodule
+
+//output
+/*sum= 25
+diff=  5
+*/
