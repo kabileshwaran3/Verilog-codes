@@ -31,3 +31,7 @@ module addition;
      
     end
     endmodule
+
+//output
+//sum= 25
+//diff=  5
