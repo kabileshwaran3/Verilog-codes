@@ -9,7 +9,3 @@ module simple_task;
   end
 endmodule
 
-//output
-/*sum= 25
-diff=  5
-*/
